@@ -46,7 +46,7 @@ public/
 
 🌐 Live Demo
 
-Check the live website: [https://futuref503.vercel.app](https://futuref503.vercel.
+Check the live website: [https://futuref503.vercel.app](https://futuref503.vercel.app)
 👩‍💻 Tech Stack
 
 - Next.js 14 (App Router)
