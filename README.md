@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ 🍕 ZODISH – A Zomato Rebrand Project
 
-## Getting Started
+This is a modern food delivery web app built with "Next.js 14 (App Router)" as part of "Task 3" for the "Future Interns Full Stack Internship"
 
-First, run the development server:
 
-```bash
+
+ 🚀 Getting Started (Development)
+
+Run the development server:
+
+bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to see the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Modern landing page inspired by Zomato
+- Responsive pages: Home, Menu, About, Contact
+- "Add to Cart" feature using React state
+- Styled with Tailwind CSS
+- Deployed on [Vercel](https://vercel.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ 📁 Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+app/
+  ├── page.js         # Home Page
+  ├── menu/page.js    # Menu Page with food cards
+  ├── about/page.js   # About Page
+  ├── contact/page.js # Contact Page
+  ├── layout.js       # Navbar and layout shared across pages
+components/
+  └── Navbar.js       # Reusable navigation bar
+public/
+  └── images/         # Food images for menu
+
+
+
+
+🌐 Live Demo
+
+Check the live website: [https://futuref503.vercel.app](https://futuref503.vercel.
+👩‍💻 Tech Stack
+
+- Next.js 14 (App Router)
+- React
+- Tailwind CSS
+- Vercel (deployment)
